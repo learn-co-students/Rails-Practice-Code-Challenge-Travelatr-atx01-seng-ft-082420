@@ -1,0 +1,14 @@
+
+
+ <center><h1><%= @blogger.name %></h1>
+ <h4> Age: <%= @blogger.age %>
+ <hr>
+ <h3> Bio: </h3>
+ <%=@blogger.bio %>
+
+ <h2> Featured Post: </h2>
+
+ <br><br><hr><br>
+ <%= form_for @blogger, method: :delete do | f | %>
+    <%= f.submit "Delete Blogger" %>
+    <% end %>
