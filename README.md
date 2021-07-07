@@ -20,7 +20,7 @@ For each model, we have a specific vision in mind:
 Blogger:
 
 1. Users should be able to create a new blogger
- 	- Bloggers should have unique names and ages above 0, and their bio should be over 30 characters long.
+ 	<!-- - Bloggers should have unique names and ages above 0, and their bio should be over 30 characters long. -->
 2. Users should be able to see the profile page of a blogger. On this page, a user should see:
 	- The total likes on all of that blogger's posts
 	- A link to that blogger's featured post (the post with the most likes)
@@ -36,10 +36,10 @@ Destination:
 Post:
 
 1. Users should be able to create and edit a post
-	- Users should be able to select a blogger from a dropdown menu
-	- Users should be able to select a destination from a dropdown menu
-	- A post should have a title
-	- A post should have content longer than 100 characters
+	<!-- - Users should be able to select a blogger from a dropdown menu -->
+	<!-- - Users should be able to select a destination from a dropdown menu -->
+	<!-- - A post should have a title -->
+	<!-- - A post should have content longer than 100 characters -->
 2. Users should be able to see a post's page with its title and content displayed. On this page, a user should see:
 	- A link to the page of that post's author
 	- A link to the page of that post's destination
